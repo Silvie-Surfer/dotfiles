@@ -2,7 +2,7 @@
 # ~/.bashrc
 #
 
-alias dotfiles='usr/bin/git --git-dir=$HOME/Dotfiles --work-tree=$HOME'
+alias dotfiles='/usr/bin/git --git-dir=$HOME/Dotfiles --work-tree=$HOME'
 
 [[ $- != *i* ]] && return
 
