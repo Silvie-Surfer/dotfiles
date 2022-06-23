@@ -8,6 +8,7 @@ fi
 # Personal Aliases
 ## Dotfile Aliases
 alias dotfiles='/usr/bin/git --git-dir=$HOME/Dotfiles --work-tree=$HOME'
+alias dc='dotfiles commit'
 alias dcm='dotfiles commit -m'
 alias da='dotfiles add'
 alias dpu='dotfiles push'
