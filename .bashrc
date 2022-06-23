@@ -2,8 +2,8 @@
 # ~/.bashrc
 #
 
-# Add Doom Emacs bin to PATH
-export PATH="$HOME/.emacs.d/bin:$PATH"
+# Add my bins to PATH 
+export PATH="$HOME/.mybins/:$PATH"
 
 if [ -f $HOME/.bash_aliases ]; then
 	source $HOME/.bash_aliases
