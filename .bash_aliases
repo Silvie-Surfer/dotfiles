@@ -15,5 +15,9 @@ alias dpu='dotfiles push'
 alias dst='dotfiles status'
 alias df='dotfiles fetch'
 alias dpl='dotfiles pull'
+alias drm='dotfiles rm -rf'
+alias dre='dotfiles restore --staged'
+alias dca='dotfiles commit --amend'
+alias drs='dotfiles reset --soft HEAD~1'
 ## Other
 alias emacs="emacsclient -c -a 'emacs'"
