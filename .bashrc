@@ -3,6 +3,7 @@
 #
 
 alias dotfiles='/usr/bin/git --git-dir=$HOME/Dotfiles --work-tree=$HOME'
+alias doom='~/.emacs.d/bin/doom'
 
 [[ $- != *i* ]] && return
 
