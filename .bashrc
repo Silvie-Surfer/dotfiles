@@ -5,12 +5,6 @@
 # Add my bins to PATH 
 export PATH="$HOME/.mybins/:$PATH"
 
-if [ -f $HOME/.bash_aliases ]; then
-	source $HOME/.bash_aliases
-fi
-
-setxkbmap -option caps:swapescape
-
 [[ $- != *i* ]] && return
 
 colors() {

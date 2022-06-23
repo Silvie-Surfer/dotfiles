@@ -20,4 +20,5 @@ alias dre='dotfiles restore --staged'
 alias dca='dotfiles commit --amend'
 alias drs='dotfiles reset --soft HEAD~1'
 ## Other
+alias srcbp='source .bash_profile'
 alias emacs="emacsclient -c -a 'emacs'"
