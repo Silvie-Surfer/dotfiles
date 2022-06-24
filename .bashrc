@@ -3,7 +3,11 @@
 #
 
 # Add my bins to PATH 
-export PATH="$HOME/.mybins/:$PATH"
+## export PATH="$HOME/.mybins/:$PATH"
+
+[[ -f $HOME/.bash_aliases ]] && . $HOME/.bash_aliases
+
+setxkbmap -option caps:swapescape
 
 [[ $- != *i* ]] && return
 
