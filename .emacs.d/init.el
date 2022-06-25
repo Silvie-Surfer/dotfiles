@@ -16,14 +16,16 @@
 (require 'use-package)
 (setq use-package-always-ensure t)
 
+(add-to-list 'load-path "~/repos/xah-fly-keys/")
 (require 'xah-fly-keys)
-(xah-fly-keys-set-layout "dvorak")
+(xah-fly-keys-set-layout "dvorak") ; required
 (xah-fly-keys 1)
 
 (define-key xah-fly-command-map (kbd "<backspace>") 'xah-fly-leader-key-map)
 
-(require 'which-key)
-(which-key-mode 1)
+(use-package which-key
+  :config
+  (which-key-mode 1))
 
 (load-theme 'modus-vivendi t)
 
